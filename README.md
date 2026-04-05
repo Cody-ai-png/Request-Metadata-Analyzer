@@ -50,26 +50,6 @@ Environment variables used by the application:
 - `DATA_DIR` (optional, default `.`): directory where `visitor_logs.json` is stored
 - `GEOIP_DIR` (optional, default `GeoLite2-City_20250528`): directory containing GeoLite2 databases
 
-## Included Data Files
-
-This repository currently includes a GeoLite2 database directory:
-
-- `GeoLite2-City_20250528/GeoLite2-City.mmdb`
-- `GeoLite2-City_20250528/GeoLite2-ASN.mmdb`
-
-Related license and attribution files are included:
-
-- `GeoLite2-City_20250528/LICENSE.txt`
-- `GeoLite2-City_20250528/COPYRIGHT.txt`
-- `GeoLite2-City_20250528/README.txt`
-
-## Utilities
-
-- `update_logs.py`: backfill structured user-agent fields in existing logs
-  - Example: `python update_logs.py --log-file visitor_logs.json`
-- `geoip_lookup.py`: run a one-off GeoLite2 city lookup for an IP
-  - Example: `python geoip_lookup.py --ip 8.8.8.8`
-
 ## Security and Privacy Notes
 
 - Do not commit `.env` files, credentials, or raw visitor logs.
