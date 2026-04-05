@@ -1,0 +1,43 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+GeoIPLookup/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime data
+visitor_logs.json
+*.log
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Test and lint cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore downloaded GeoIP databases instead of committing binaries
+# GeoLite2-City_*/GeoLite2-*.mmdb
+# GeoLite2-City_*/
