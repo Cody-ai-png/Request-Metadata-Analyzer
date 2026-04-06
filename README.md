@@ -50,6 +50,10 @@ Environment variables used by the application:
 - `DATA_DIR` (optional, default `.`): directory where `visitor_logs.json` is stored
 - `GEOIP_DIR` (optional, default `GeoLite2-City_20250528`): directory containing GeoLite2 databases
 
+## Dashboard Preview
+
+![Visitor Analytics Dashboard](assets/dashboard.png)
+
 ## Security and Privacy Notes
 
 - Do not commit `.env` files, credentials, or raw visitor logs.
