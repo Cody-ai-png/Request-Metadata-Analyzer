@@ -1,4 +1,4 @@
-# IP Address Tracker
+# Visitor Analytics Dashboard
 
 A Flask application that records visitor metadata, performs GeoIP lookups, classifies bots vs human traffic, and redirects requests to a configured destination. A local dashboard (`/dashboard`) provides searchable visibility into collected logs.
 
